@@ -34,5 +34,6 @@ int main() {
     cout<<sizeof(k)<<endl;
     cout<<sizeof(k[0])<<endl;
     cout<<sizeof(k)/sizeof(k[0])<<endl;
+    cout<<"ending.."<<endl;
     
 }
