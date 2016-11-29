@@ -21,4 +21,13 @@ int main() {
     cout << *numbers << endl;         // Same as numbers[0] (11)
     cout << *(numbers + 1) << endl;   // Same as numbers[1] (22)
     cout << *(numbers + 4) << endl;   // Same as numbers[4] (41)
+    
+    cout<<"size of int on my Mac is: "<< sizeof(int)<<endl<<endl;
+    int * p = numbers;
+    cout<<"p    = "<<p<<endl;
+    cout<<"p+1  = "<<p+1<<endl;
+    cout<<"*p   = "<<*p<<endl;
+    cout<<"*(p+1) ="<<*(p+1)<<endl;
+    cout<<"*p + 1 = "<<*p + 1<<endl;
+    
 }
