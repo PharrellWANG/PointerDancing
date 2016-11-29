@@ -30,4 +30,9 @@ int main() {
     cout<<"*(p+1) ="<<*(p+1)<<endl;
     cout<<"*p + 1 = "<<*p + 1<<endl;
     
+    int k[100];
+    cout<<sizeof(k)<<endl;
+    cout<<sizeof(k[0])<<endl;
+    cout<<sizeof(k)/sizeof(k[0])<<endl;
+    
 }
