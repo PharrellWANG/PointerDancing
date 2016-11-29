@@ -4,15 +4,55 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>ConstFuncFormalPara.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
+		<key>PassByReferRetrun.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>4</integer>
+		</dict>
 		<key>PointerDancing.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>References.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>References1.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
 		<key>DFA61A831DED5D290050A59D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>DFA61A911DED5DDC0050A59D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>DFA61A9C1DED5F770050A59D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>DFA61AA71DED608D0050A59D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>DFA61AB21DED62140050A59D</key>
 		<dict>
 			<key>primary</key>
 			<true/>
