@@ -12,8 +12,6 @@
 		DFA61AA01DED5F770050A59D /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DFA61A9F1DED5F770050A59D /* main.cpp */; };
 		DFA61AAB1DED608D0050A59D /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DFA61AAA1DED608D0050A59D /* main.cpp */; };
 		DFA61AB61DED62140050A59D /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DFA61AB51DED62140050A59D /* main.cpp */; };
-		DFA61AC11DED67510050A59D /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DFA61AC01DED67510050A59D /* main.cpp */; };
-		DFA61ACC1DED69A30050A59D /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DFA61ACB1DED69A30050A59D /* main.cpp */; };
 		DFA61AD71DED6CD60050A59D /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DFA61AD61DED6CD60050A59D /* main.cpp */; };
 /* End PBXBuildFile section */
 
@@ -104,9 +102,7 @@
 		DFA61AB31DED62140050A59D /* PassByReferRetrun */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = PassByReferRetrun; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFA61AB51DED62140050A59D /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		DFA61ABE1DED67510050A59D /* new&delete */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "new&delete"; sourceTree = BUILT_PRODUCTS_DIR; };
-		DFA61AC01DED67510050A59D /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		DFA61AC91DED69A30050A59D /* dynallopersist */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = dynallopersist; sourceTree = BUILT_PRODUCTS_DIR; };
-		DFA61ACB1DED69A30050A59D /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		DFA61AD41DED6CD50050A59D /* pointerYarrary */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = pointerYarrary; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFA61AD61DED6CD60050A59D /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -179,8 +175,6 @@
 				DFA61A9E1DED5F770050A59D /* References1 */,
 				DFA61AA91DED608D0050A59D /* ConstFuncFormalPara */,
 				DFA61AB41DED62140050A59D /* PassByReferRetrun */,
-				DFA61ABF1DED67510050A59D /* new&delete */,
-				DFA61ACA1DED69A30050A59D /* dynallopersist */,
 				DFA61AD51DED6CD60050A59D /* pointerYarrary */,
 				DFA61A851DED5D290050A59D /* Products */,
 			);
@@ -239,22 +233,6 @@
 				DFA61AB51DED62140050A59D /* main.cpp */,
 			);
 			path = PassByReferRetrun;
-			sourceTree = "<group>";
-		};
-		DFA61ABF1DED67510050A59D /* new&delete */ = {
-			isa = PBXGroup;
-			children = (
-				DFA61AC01DED67510050A59D /* main.cpp */,
-			);
-			path = "new&delete";
-			sourceTree = "<group>";
-		};
-		DFA61ACA1DED69A30050A59D /* dynallopersist */ = {
-			isa = PBXGroup;
-			children = (
-				DFA61ACB1DED69A30050A59D /* main.cpp */,
-			);
-			path = dynallopersist;
 			sourceTree = "<group>";
 		};
 		DFA61AD51DED6CD60050A59D /* pointerYarrary */ = {
@@ -524,7 +502,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DFA61AC11DED67510050A59D /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -532,7 +509,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DFA61ACC1DED69A30050A59D /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -781,6 +757,7 @@
 				DFA61A8D1DED5D290050A59D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DFA61A961DED5DDC0050A59D /* Build configuration list for PBXNativeTarget "References" */ = {
 			isa = XCConfigurationList;
@@ -789,6 +766,7 @@
 				DFA61A981DED5DDC0050A59D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DFA61AA11DED5F770050A59D /* Build configuration list for PBXNativeTarget "References1" */ = {
 			isa = XCConfigurationList;
@@ -797,6 +775,7 @@
 				DFA61AA31DED5F770050A59D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DFA61AAC1DED608D0050A59D /* Build configuration list for PBXNativeTarget "ConstFuncFormalPara" */ = {
 			isa = XCConfigurationList;
@@ -805,6 +784,7 @@
 				DFA61AAE1DED608D0050A59D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DFA61AB71DED62140050A59D /* Build configuration list for PBXNativeTarget "PassByReferRetrun" */ = {
 			isa = XCConfigurationList;
@@ -813,6 +793,7 @@
 				DFA61AB91DED62140050A59D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DFA61AC21DED67510050A59D /* Build configuration list for PBXNativeTarget "new&delete" */ = {
 			isa = XCConfigurationList;
@@ -821,6 +802,7 @@
 				DFA61AC41DED67510050A59D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DFA61ACD1DED69A30050A59D /* Build configuration list for PBXNativeTarget "dynallopersist" */ = {
 			isa = XCConfigurationList;
@@ -829,6 +811,7 @@
 				DFA61ACF1DED69A30050A59D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DFA61AD81DED6CD60050A59D /* Build configuration list for PBXNativeTarget "pointerYarrary" */ = {
 			isa = XCConfigurationList;
@@ -837,6 +820,7 @@
 				DFA61ADA1DED6CD60050A59D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
